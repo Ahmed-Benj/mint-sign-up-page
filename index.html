@@ -3,7 +3,7 @@
 
 <head>
 
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <title>Mint Sign In Page</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -15,18 +15,79 @@
 <body>
 
     <section id="msup-sign-in-section">
-        <div>
+        <div id="msup-signin">
             <div class="msup-sign-in-section-left-bar">
-                <div><p>Already have an Intuit account?</p></div>
+                <div>
+                    <p>Already have an Intuit account?</p>
+                </div>
                 <div><a href="https://intuit.me/3f1LzGz">I forgot my User ID or Password</a></div>
-            </div >
+            </div>
             <div class="msup-sign-in-section-right-bar">
                 <button id="Sign-In-Button"><span class="white-lock"></span>Sign In</button>
             </div>
         </div>
 
-    </section>
 
-<body>
+    </section>
+    <header>
+        <div id="msup-company-logo">
+            <a href="/#"><img src="src/logo.png" alt="company logo"></a>
+
+        </div>
+
+    </header>
+    <section>
+        <div id="msup-icons-links">
+            <ul>
+                <li>
+                    <a class="icons-links" href="">
+                        <img src="src/mint.png" alt="mint icon">mint
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-links" href="">
+                        <img src="src/quickbooks.png" alt="quickbooks"> quickbooks
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-links" href="">
+                        <img src="src/turbotax.png" alt="turbotax">turbotax
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div id="msup-main">
+            <form>
+                <fieldset class="account-info">
+                    <h2>Create an Intuit account</h2>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href="">Learn more</a>
+                    <label>
+                    Email address
+                    <input type="email" name="email">
+                  </label>
+                    <label>
+                    Phone (recommended)
+                    <input type="tel" name="phonenumber">
+                  </label>
+                    <label>
+                    Password
+                    <input type="text" name="password">     
+                    </label>
+                    <button name="submit">
+                        <strong>Create Account</strong> a Message
+                    </button>
+
+                </fieldset>
+            </form>
+
+
+        </div>
+    </section>
+    <footer></footer>
+
+
+</body>
 
 </html>
