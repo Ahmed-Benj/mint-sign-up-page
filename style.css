@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+body{
+    background-color: #ECEEF1;
+}
+
+#msup-sign-in-section{
+    float:right;
+}
+
+.msup-sign-in-section-left-bar {    
+    float:left;
+}
+
+.msup-sign-in-section-right-bar {
+    float:right;
+    /* padding: 20px 10px 0 0; */
+}
+
+#Sign-In-Button{
+
+    margin: 3px 30px 0 0;
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+
+    height: 37px;
+    width: 110px;
+
+    color: white;
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+white-lock{
+    height: 5px;
+    width: 5px;
+    background-image: url("src/white_lock.jpg");
+
+}
