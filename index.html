@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <title>Mint Sign In Page</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/099118c311.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="src/favicon.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="src/favicon.png" sizes="16x16 32x32" type="image/png">
 
 </head>
 
@@ -15,71 +17,77 @@
 <body>
 
     <section id="msup-sign-in-section">
-        <div id="msup-signin">
-            <div class="msup-sign-in-section-left-bar">
-                <div>
-                    <p>Already have an Intuit account?</p>
-                </div>
-                <div><a href="https://intuit.me/3f1LzGz">I forgot my User ID or Password</a></div>
-            </div>
-            <div class="msup-sign-in-section-right-bar">
-                <button id="Sign-In-Button"><span class="white-lock"></span>Sign In</button>
-            </div>
+        <div id="msup-signin"></div>
+        <nav>
+            <ul>
+                <li>
+                    Already have an Intuit account?<br />
+                    <a href="#">I forgot my User ID or Password</a>
+                </li>
+            </ul>
+            <button class="msup-sign-in-button"><img src="src/lockicon.png" alt="lock"/>Sign In</button>
+        </nav>
         </div>
-
-
+        <br>
     </section>
     <header>
         <div id="msup-company-logo">
-            <a href="/#"><img src="src/logo.png" alt="company logo"></a>
-
+            <a href="#"><img src="src/logo.png" alt="company logo"></a>
         </div>
 
     </header>
     <section>
         <div id="msup-icons-links">
-            <ul>
-                <li>
-                    <a class="icons-links" href="">
-                        <img src="src/mint.png" alt="mint icon">mint
-                    </a>
-                </li>
-                <li>
-                    <a class="icons-links" href="">
-                        <img src="src/quickbooks.png" alt="quickbooks"> quickbooks
-                    </a>
-                </li>
-                <li>
-                    <a class="icons-links" href="">
-                        <img src="src/turbotax.png" alt="turbotax">turbotax
-                    </a>
-                </li>
-            </ul>
+            <a class="icons-links" href="">
+                <img src="src/mint.png" alt="mint icon">
+            </a>
 
+            <a class="icons-links" href="">
+                <img src="src/mint_animation_text.png" alt="mint animation text">
+            </a>
+
+            <a class="icons-links" href="">
+                <img src="src/quickbooks.png" alt="quickbooks">
+            </a>
+
+            <a class="icons-links" href="">
+                <img src="src/quickbooks_animation_text.png" alt="quickbooks animation text">
+            </a>
+
+            <a class="icons-links" href="">
+                <img src="src/turbotax.png" alt="turbotax">
+            </a>
+
+            <a class="icons-links" href="">
+                <img src="src/turbotax_animation_text.png" alt="turbotax animation text">
+            </a>
         </div>
-        <div id="msup-main">
-            <form>
+        <div class="msup-main">
+            <form class="msup-signup-form">
                 <fieldset class="account-info">
                     <h2>Create an Intuit account</h2>
                     <p>One account for everything Intuit, including Mint.</p>
-                    <a href="">Learn more</a>
+                    <p class="Learn-more"><a href="">Learn more</a></p>
                     <label>
-                    Email address
-                    <input type="email" name="email">
+                        Email address
+                        <input type="email" name="email">
                     </label>
                     <label>
-                    Phone (recommended)
-                    <input type="tel" name="phonenumber">
-                     </label>
-                     <p class="standard-call-text"> call, messaging or data rates may apply.</p>
-                    <label>
-                    Password
-                    <input type="text" name="password">     
+                        Phone (recommended)
+                        <input type="tel" name="phonenumber">
+                        <p id="phone-hint">Standard call, messaging or data rates may apply.</p>
                     </label>
-                    <button id="Submit-Button" name="submit">
-                        <strong>Create Account</strong>
-                    </button>
-
+                    <label>
+                        Password
+                        <input type="password" name="password" required />  
+                        <img class="input_lock" src="src/inputlock.png" alt="input-lock"/>  
+                    </label>
+                    <button class="btn btn-default" type="submit"><img src="src/lockicon.png" alt="lock"/> Create Account</button>
+                    
+                    <p id="terms-para">
+                    By clicking Create account, you agree to our
+                    <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement</a>.
+                    </p>
                 </fieldset>
             </form>
 
