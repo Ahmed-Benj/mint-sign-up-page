@@ -12,8 +12,13 @@ body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-div {
+
+/* div {
     display: block;
+} */
+
+#msup-sign-in-section {
+    margin-top: -8px;
 }
 
 nav {
@@ -48,9 +53,16 @@ a {
     margin-bottom: -7px;
 }
 
-#msup-company-logo {
+#msup-company-logo a {
     display: block;
-    padding-left: 50%;
+    padding-top: 100px;
+    padding-left: 46.5%;
+}
+
+#msup-icons-links img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
