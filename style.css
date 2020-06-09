@@ -12,10 +12,9 @@ body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
-/* div {
+div {
     display: block;
-} */
+}
 
 #msup-sign-in-section {
     margin-top: -8px;
@@ -55,14 +54,26 @@ a {
 
 #msup-company-logo a {
     display: block;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-left: 46.5%;
+    padding-bottom: 10px;
 }
 
-#msup-icons-links img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#msup-icons-links {
+    display: list-item;
+    padding-left: 41.5%;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    background: white;
+    color: #505050;
+    border: 1px solid #c1c5c8;
+    height: 700px;
+    width: 400px;
+    position: relative;
+    margin-bottom: 120px;
+    margin: 0 auto;
 }
 
 
@@ -114,12 +125,7 @@ form {
     overflow: hidden;
     width: 35%;
 }
-fieldset {
-    background-color: white;
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+
 input {
     border-radius: 5px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
