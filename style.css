@@ -5,54 +5,68 @@
 }
 
 body {
+    position: relative;
     background-color: #ECEEF1;
     margin: 0%;
     padding: 0%;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 div {
     display: block;
 }
 
-#msup-signin {
+nav {
     display: flex;
-}
-
-.msup-sign-in-section-left-bar,
-.msup-sign-in-section-right-bar {
-    display: inline-block;
-}
-
-
-/* #msup-sign-in-section {
     float: right;
-} */
-
-
-/*
-.msup-sign-in-section-left-bar {
-    float: left;
 }
 
-.msup-sign-in-section-right-bar {
-    float: right;
-    /* padding: 20px 10px 0 0;
-
+li {
+    list-style-type: none;
+    line-height: 1.5;
+    text-align: left;
+    color: #505050;
 }
-*/
 
-#Sign-In-Button {
-    margin: 3px 30px 0 0;
-    background: #0077C5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    height: 37px;
-    width: 110px;
+a {
+    text-decoration: none;
+    color: #0077c5;
+}
+
+.msup-sign-in-button {
     color: white;
-    cursor: pointer;
-    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: #2c72c6;
+    border-radius: 4px;
+    height: 36px;
+    width: 86px;
+    border: none;
 }
 
+.msup-sign-in-button img {
+    margin-bottom: -7px;
+}
+
+#msup-company-logo {
+    display: block;
+    padding-left: 50%;
+}
+
+
+/*   #Sign-In-Button {
+        margin: 3px 30px 0 0;
+        background: #0077C5;
+        border-radius: 4px;
+        border: 1px solid #4c4c4c;
+        height: 37px;
+        width: 110px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px; */
+
+
+}
 
 /*
 .white-lock {
@@ -61,27 +75,26 @@ div {
     background-image: url("src/white_lock.jpg");
 } */
 
-#msup-company-logo {
-    display: block;
-    padding-left: 50%;
-}
+/*     #msup-company-logo {
+        display: block;
+        padding-left: 50%;
+    }
+    
+    #msup-icons-links {
+        display: block;
+        padding-left: 45%;
+    } */
 
-#msup-icons-links {
-    padding-left: 45%;
-}
-
+/*
 ul {
     list-style-type: none;
 }
-
 li {
     display: inline;
 }
-
 #msup-main {
     padding-left: 45%;
 }
-
 form {
     border: 1px solid #c6c7cc;
     border-radius: 5px;
@@ -89,30 +102,25 @@ form {
     overflow: hidden;
     width: 35%;
 }
-
 fieldset {
     background-color: white;
     border: 0;
     margin: 0;
     padding: 0;
 }
-
 input {
     border-radius: 5px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
 }
-
 .account-info {
     padding: 20px 20px 0 20px;
 }
-
 .account-info label {
     display: block;
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 .account-info input {
     background: #fff;
     border: 1px solid #c6c7cc;
@@ -122,13 +130,11 @@ input {
     margin-top: 6px;
     width: 100%;
 }
-
 .account-action {
     background: #f0f0f2;
     border-top: 1px solid #c6c7cc;
     padding: 20px;
 }
-
 .account-action .btn {
     background: linear-gradient(#49708f, #293f50);
     border: 0;
@@ -138,10 +144,10 @@ input {
     float: left;
     padding: 8px 16px;
 }
-
 .account-action label {
     color: #7c7c80;
     font-size: 12px;
     float: left;
     margin: 10px 0 0 20px;
-}
+} 
+*/
