@@ -5,7 +5,6 @@
 }
 
 body {
-    position: relative;
     background-color: #ECEEF1;
     margin: 0%;
     padding: 0%;
@@ -90,7 +89,6 @@ p {
 
 .input_lock {
     position: absolute;
-    bottom: 74px;
     right: 50px;
 }
 
@@ -128,6 +126,8 @@ form img {
     padding: 6px;
     margin-top: 6px;
     width: 100%;
+
+    position:relative
 }
 
 .account-info h2 {
@@ -155,13 +155,16 @@ form img {
     padding: 13px 0 13px 0;
 }
 
-.msup-form-base-comment {
-    margin: 0 15% 30px 15%;
-    padding: 50px 0 33px 0;
-    font-size: 14px;
+#msup-form-base-comment {
+    margin: 25px 15% 0 15%;
+    padding: 25px 0 0 0;
+    font-size: 12px;
+    bottom: 55px;
     font-style: italic;
     color: #757575;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
 }
 
 #phone-hint {
@@ -170,16 +173,27 @@ form img {
     padding-top: 5px;
 }
 
+#msup-form-base-text {
+    background-color: #ECEEF1;
+    text-align: center;
+    margin: 54px -20px 0 -20px;
+    padding: 20px 0 20px 0;
+    font-size: 10px;
+}
+
 .msup-form-base {
     background-color: #ECEEF1;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 20px 0;
+    font-size: 10px;
+    Position:absolute
 }
 
 .msup-footer-list {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: inline;
-    text-align: center;
+    /* text-align: center; */
+
 }
 
 .msup-footer {
@@ -187,7 +201,18 @@ form img {
     text-align: center;
 }
 
+footer{
+    font-size: 12px;
+    color: #505050;
+}
+footer div{
+    text-align: center;
+}
 
+footer div ul li a{
+    margin-top: 20px;
+    color: #505050;
+}
 /* .account-action {
     background: #f0f0f2;
     border-top: 1px solid #c6c7cc;
