@@ -99,9 +99,9 @@ p {
     border-radius: 4px;
     background-color: #2c72c6;
     color: white;
-    font-size: 20px;
-    width: 82%;
-    height: 34px;
+    font-size: 18px;
+    width: 370px;
+    height: 38px;
     margin-left: 7%;
     margin-top: 20px;
 }
@@ -130,51 +130,70 @@ form img {
     width: 100%;
 }
 
-.account-info h2{
+.account-info h2 {
     text-align: center;
 }
 
-.account-info p{
+.account-info p {
     text-align: center;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-.Learn-more{
+.Learn-more {
     font-size: 12px;
     text-align: center;
 }
 
-.account-info label{
+.account-info label {
     margin: 13px 0 13px 0;
     padding: 13px 0 13px 0;
 }
 
-.account-info button{
+.account-info button {
     margin: 13px 0 13px 0;
     padding: 13px 0 13px 0;
 }
 
-#terms-para{
-    margin: 50px 0 33px 0;
+.msup-form-base-comment {
+    margin: 0 15% 30px 15%;
     padding: 50px 0 33px 0;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     color: #757575;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#phone-hint{
-  font-size: 10px;
-  text-align: left;
-  padding-top: 5px;
+#phone-hint {
+    font-size: 10px;
+    text-align: left;
+    padding-top: 5px;
 }
+
+.msup-form-base {
+    background-color: #ECEEF1;
+    text-align: center;
+    padding: 20px;
+}
+
+.msup-footer-list {
+    margin: 0 auto;
+    display: inline;
+    text-align: center;
+}
+
+.msup-footer {
+    display: inline;
+    text-align: center;
+}
+
 
 /* .account-action {
     background: #f0f0f2;
     border-top: 1px solid #c6c7cc;
     padding: 20px;
 } */
+
 
 /* .account-action .btn {
     background: linear-gradient(#49708f, #293f50);
@@ -191,4 +210,3 @@ form img {
     float: left;
     margin: 10px 0 0 20px;
 }  */
-
