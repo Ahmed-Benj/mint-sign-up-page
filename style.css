@@ -62,7 +62,7 @@ form img {
   margin-bottom: -7px;
 }
 
-#msup-company-logo a {
+body > header > div > a {
   display: block;
   padding-top: 75px;
   padding-left: 46.5%;
@@ -130,7 +130,7 @@ p {
 .msup-signup-useraccount input {
   background: #fff;
   border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
   padding: 6px;
   margin-top: 6px;
@@ -207,7 +207,7 @@ footer div {
   text-align: center;
 }
 
-footer > div > ul > li >a {
+footer > div > ul > li > a {
   margin-top: 20px;
   color: #505050;
 }
