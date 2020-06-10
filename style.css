@@ -11,10 +11,6 @@ body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-div {
-    display: block;
-}
-
 body section nav {
     margin-right: 40px;
 }
@@ -219,4 +215,10 @@ footer div {
 footer div ul li a {
     margin-top: 20px;
     color: #505050;
+}
+
+@media (max-width: 780px) {
+    body section nav {
+        display: none;
+    }
 }
