@@ -62,7 +62,7 @@ form img {
   margin-bottom: -5px;
 }
 
-body > header > div > a > img {
+body>header>div>a>img {
   display: block;
   padding-top: 60px;
   padding-bottom: 10px;
@@ -217,7 +217,7 @@ footer div {
   text-align: center;
 }
 
-footer > div > ul > li > a {
+footer>div>ul>li>a {
   margin-top: 20px;
   color: #505050;
   text-align: center;
