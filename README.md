@@ -10,7 +10,7 @@
 - HTML & CSS
 
 ## Live Demo
-- [Live Demo Link](coming soon)
+- [Live Demo Link](https://raw.githack.com/Ahmed-Benj/mint-sign-up-page/development/index.html)
 
 #### Prerequisites
 - Browser
