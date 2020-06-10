@@ -62,7 +62,7 @@ form img {
   margin-bottom: -5px;
 }
 
-body>header>div>a>img {
+body > header > div > a > img {
   display: block;
   padding-top: 60px;
   padding-bottom: 10px;
@@ -182,7 +182,7 @@ p {
 }
 
 #msup-form-base-text {
-  background-colo0r: #eceef1;
+  background-color: #eceef1;
   text-align: center;
   margin: 54px -20px 0 -20px;
   padding: 20px 0 20px 0;
@@ -217,7 +217,7 @@ footer div {
   text-align: center;
 }
 
-footer>div>ul>li>a {
+footer > div > ul > li > a {
   margin-top: 20px;
   color: #505050;
   text-align: center;
