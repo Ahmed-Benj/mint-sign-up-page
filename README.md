@@ -1,1 +1,39 @@
-# Create-Mint-Sign-up-page
+# HTML FORM : Mint Sign-Up Page (Microverse Collaborative Project)
+
+> This project centers on the use of plain HTML and CSS to create a form.
+> A reproduction of the mint sign up page was used to complete the project
+
+![screenshot](./src/mint_signup_page.png)
+
+## Built With
+
+- HTML & CSS
+
+## Live Demo
+- [Live Demo Link](coming soon)
+
+#### Prerequisites
+- Browser
+- Internet
+## Authors
+
+👤 **John Pius**
+
+- Github (https://github.com/john4pius)
+- Linkedin (https://www.linkedin.com/in/john-pius-5447b353/)
+- Twitter (@John4pius)
+
+👤 **Ahmed Ben Jmii**
+
+* Ahmed (https://github.com/Ahmed-Benj)
+* Linkedin (https://www.linkedin.com/in/ahmed-b-05600992/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check them https://github.com/john4pius/youtube-video-player-page/issues.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
