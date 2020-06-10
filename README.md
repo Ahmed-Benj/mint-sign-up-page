@@ -32,7 +32,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check them https://github.com/john4pius/youtube-video-player-page/issues.
+Feel free to check them https://github.com/Ahmed-Benj/mint-sign-up-page/issues.
 
 ## Show your support
 
