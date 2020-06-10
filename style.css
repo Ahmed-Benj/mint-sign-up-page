@@ -11,6 +11,10 @@ body {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.check {
+  display: none;
+}
+
 nav {
   display: flex;
   float: right;
@@ -112,7 +116,7 @@ p {
   position: absolute;
   right: 50px;
   left: 21.6em;
-  top: 23.7em;
+  top: 23em;
 }
 
 .btn {
@@ -182,11 +186,11 @@ p {
 #phonenum {
   font-size: 10px;
   text-align: left;
-  padding-top: 5px;
+  margin-top: -2em;
 }
 
 #msup-form-base-text {
-  background-color: #eceef1;
+  background-colo0r: #eceef1;
   text-align: center;
   margin: 54px -20px 0 -20px;
   padding: 20px 0 20px 0;
