@@ -106,7 +106,7 @@ p {
   text-decoration-color: #000;
 }
 
-p{
+p {
   font-size: 12px;
 }
 
@@ -120,7 +120,7 @@ p{
   right: 50px;
   left: 19.2em;
   top: 23.18em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .btn {
