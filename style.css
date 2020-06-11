@@ -221,7 +221,7 @@ p {
   color: rgb(141, 144, 150);
   font-size: 10px;
   line-height: 18px;
-  font-family: Avenir, Helvetica, Arial sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   padding-top: 15px;
 }
 
