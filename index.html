@@ -16,20 +16,25 @@
 <body>
     <section id="msup-sign-in-section">
         <h2 class="check">logo</h2>
-        <nav>
-            <ul>
-                <li>
+        <div class="msup-sign-in-container">
+            <div class="msup-sign-in-navigation">
+                <div class="msup-sign-in-option">
                     Already have an Intuit account?<br />
                     <a href="#">I forgot my User ID or Password</a>
-                </li>
-            </ul>
-            <button class="msup-sign-in-button" type="button"><img src="src/lockicon.png" alt="lock"/>Sign In</button>
-        </nav>
-        <br>
+                </div>
+                <div class="msup-sign-in-button-container">
+                    <button class="msup-sign-in-button" type="button">
+                        <img src="src/lockicon.png" alt="lock"/>Sign In
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
-    <header>
-        <div id="msup-company-logo">
-            <a href="#"><img src="src/logo.png" alt="company logo"></a>
+    <header class="msup-header">
+        <div id="msup-header-company-logo">
+            <a class="msup-company-logo" href="#">
+                <img class="msup-logo-image" src="src/logo.png" alt="">
+            </a>
         </div>
     </header>
     <section>
@@ -78,8 +83,10 @@
                         <br>
                         <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy <br> Statement</a>.
                     </p>
-                    <p id="msup-form-base-text">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
                 </fieldset>
+                <div id="msup-form-base-text">
+                    <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
+                </div>
             </form>
         </div>
     </section>

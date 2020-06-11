@@ -15,31 +15,29 @@ body {
   display: none;
 }
 
-nav {
-  display: flex;
+.msup-sign-in-container {
+  float: none;
+  padding: 10px 30px 10px 30px;
+  height: 60px;
+  margin-top: 5px;
+}
+
+.msup-sign-in-navigation {
+  box-sizing: border-box;
   float: right;
+  padding: 0;
+  margin: 0;
+  outline: none;
 }
 
-body section nav {
-  margin-right: 40px;
-}
-
-li {
-  list-style-type: none;
-  line-height: 1.5;
-  text-align: left;
-  color: #505050;
-}
-
-body section nav ul li {
+.msup-sign-in-option {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #505050;
   font-size: 12px;
-}
-
-#msup-sign-in-section {
-  margin-top: -8px;
 }
 
 a {
@@ -47,26 +45,45 @@ a {
   color: #0077c5;
 }
 
+.msup-sign-in-button-container {
+  float: left;
+  margin-left: 10px;
+  margin-top: -5px;
+  text-align: right;
+}
+
+.msup-header {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px 0 20px 0;
+  line-height: 18px;
+}
+
+.msup-header-company-logo {
+  display: block;
+  list-style: none;
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+}
+
+.msup-logo-image {
+  display: block; 
+  margin: 0 auto; 
+}
+
 .msup-sign-in-button {
   color: white;
-  margin-top: 15px;
-  margin-left: 10px;
-  background: #2c72c6;
+  background: #0077C5;
   border-radius: 4px;
-  height: 36px;
-  width: 86px;
+  height: 34px;
+  width: 105px;
   border: none;
+  margin: 0;
 }
 
 form img {
   margin-bottom: -5px;
-}
-
-body > header > div > a > img {
-  display: block;
-  padding-top: 70px;
-  padding-bottom: 10px;
-  margin-left: 44%;
 }
 
 .msup-sign-in-button img {
@@ -84,10 +101,11 @@ fieldset {
   background: white;
   color: #505050;
   border: 1px solid #c1c5c8;
-  height: 662px;
+  height: 627px;
   width: 380px;
   position: relative;
   margin: 0 auto;
+  border-bottom-color: #eceef1;
 }
 
 input {
@@ -117,14 +135,15 @@ p{
   position: absolute;
   right: 50px;
   left: 19.2em;
-  top: 23.18em;
+  top: 23.8em;
   margin-bottom: 0px;
+  padding: 0;
 }
 
 .btn {
   border: none;
   border-radius: 4px;
-  background-color: #2c72c6;
+  background-color: #0077C5;
   color: white;
   font-size: 16px;
   width: 320px;
@@ -137,7 +156,7 @@ p{
   display: block;
   font-weight: normal;
   margin: 22px 0 0 0;
-  padding: 13px 0 4px 0;
+  padding: 13px 0 8px 0;
   font-size: 14px;
 }
 
@@ -189,12 +208,22 @@ p{
   margin-top: 5px;
 }
 
-#msup-form-base-text {
+#msup-form-base-text p {
+  display: block;
+  width: 380px;
+  position: relative;
+  margin: 0 auto;
+  height: 50px;
+  border: 1px solid #c1c5c8;
   background-color: #eceef1;
-  text-align: center;
-  margin: 45px -28px 0 -28px;
-  padding: 15px 0 15px 0;
+  border-top-color: #eceef1;
+  color: rgb(141, 144, 150);
   font-size: 10px;
+}
+
+
+#msup-form-base-text p {
+  padding-top: 15px;
 }
 
 .msup-form-base {
@@ -218,6 +247,7 @@ p{
 footer {
   font-size: 12px;
   color: #505050;
+  padding-bottom: 15px;
 }
 
 footer div {
@@ -229,6 +259,12 @@ footer > div > ul > li > a {
   margin-top: 20px;
   color: #505050;
   text-align: center;
+}
+
+footer p {
+  line-height: 18px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+
 }
 
 @media (max-width: 780px) {
