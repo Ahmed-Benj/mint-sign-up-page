@@ -53,9 +53,11 @@ a {
   margin-left: 10px;
   background: #2c72c6;
   border-radius: 4px;
-  height: 36px;
-  width: 86px;
+  height: 33px;
+  width: 105px;
   border: none;
+  padding-bottom: 5px;
+  cursor: pointer;
 }
 
 form img {
@@ -106,21 +108,24 @@ p {
 
 .msup-input-lock {
   position: absolute;
-  right: 50px;
+  margin-right: -2em;
   left: 21.6em;
   top: 23em;
+  height: 25px;
+  width: 35px;
 }
 
-.btn {
+#btn {
   border: none;
   border-radius: 4px;
   background-color: #2c72c6;
   color: white;
   font-size: 18px;
-  width: 370px;
-  height: 38px;
-  margin-left: 7%;
+  width: 320px;
+  height: 45px;
+  margin-left: 5%;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .msup-signup-useraccount {
